@@ -8,4 +8,6 @@ def using_insert(array, element)
 end
 
 def using_uniq(array)
-  array.uniq
+  new_array = array.uniq
+  return new_array
+end
